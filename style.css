@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+body{
+    height: 100vh;
+    background-color: hsl(257, 40%, 49%);
+    background-image: url("images/bg-desktop.svg");
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#mid{
+    display: flex;
+    justify-content: center;
+}
+
+#footer{
+    position: relative;
+    height: 100%;
+}
+
+#media-buttons{  
+    position: absolute;  
+    bottom: 30px;
+    right: 80px;
+}
+
+
+#media-buttons span{
+    display: inline-flex;
+    width: 48px;
+    height: 48px;
+    margin: 10px;
+    transition: .2s;
+}
+
+
+
+
+.fb{
+    background-image: url("images/facebook.svg");
+}
+
+.tw{
+    background-image: url("images/twitter.svg");
+}
+.insta{
+    background-image: url("images/insta.svg");
+}
+
+.fb:hover{
+    background-image: url("images/facebook copy.svg");
+}
+
+.tw:hover{
+    background-image: url("images/twitter copy.svg");
+}
+.insta:hover{
+    background-image: url("images/insta copy.svg");
+}
+
+
+#text{
+    margin: 30px;
+}
+
+p{
+    margin: 20px 0;
+    color: aliceblue;
+    opacity: 80%;
+}
+
+h1{
+    color: aliceblue;
+}
+
+button{
+    border-radius: 25px;
+    height: 3.3em;
+    width: 12em;
+    border: 0px;
+    box-shadow: 0px 1px 10px 1px rgba(0,0,0,0.3);
+    color: hsl(257, 40%, 49%);
+    font-size: 0.8em;
+    font-weight: 500;
+    transition: .2s;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: hsl(300, 69%, 71%);
+}
+
+#top{
+    margin: 50px;
+}
+
+#top img{
+    width: 170px;
+    height: auto;
+    
+}
+
+
